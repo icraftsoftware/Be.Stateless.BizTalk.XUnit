@@ -36,7 +36,7 @@
 
   <ItemGroup>
     <PackageReference Include="Be.Stateless.BizTalk.Pipeline.Components" Version="2.0.20117.43294" />
-    <PackageReference Include="Be.Stateless.BizTalk.Unit" Version="2.0.20119.2106" />
+    <PackageReference Include="Be.Stateless.BizTalk.Unit" Version="2.0.20171.30207" />
     <PackageReference Include="BizTalk.Server.2020.Runtime" Version="1.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
