@@ -70,6 +70,18 @@ namespace Be.Stateless.BizTalk.Unit.Component
 			VerifyExecuteThrowsWhenPipelineContextIsNull();
 		}
 
+		[Fact(Skip = "TODO")]
+		public void Todo()
+		{
+			// TODO create ref pipeline, save its data to property bag and reload them from another pipeline and assert that both pipelines are equivalent, this
+			// will test that these actual values are indeed written and read back
+
+			//var sut = fixture.Create<T>();
+
+			// i.e. ensures all the values converted to string are actually the values written and read to a property bag, in effect, verifying that all values
+			// are actually converted to a string when written to property bag and vice versa
+		}
+
 		protected PipelineComponentFixture()
 		{
 			Initialize();
