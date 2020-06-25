@@ -16,6 +16,8 @@
 
 #endregion
 
+using Be.Stateless.BizTalk.MicroComponent;
+
 namespace Be.Stateless.BizTalk.Unit.MicroComponent
 {
 	/// <summary>
