@@ -26,7 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BizTalk.Pipeline.Components\src\Be.Stateless.BizTalk.Pipeline.Components\Be.Stateless.BizTalk.Pipeline.Components.csproj" />
     <ProjectReference Include="..\Be.Stateless.BizTalk.XUnit\Be.Stateless.BizTalk.XUnit.csproj" />
   </ItemGroup>
 
