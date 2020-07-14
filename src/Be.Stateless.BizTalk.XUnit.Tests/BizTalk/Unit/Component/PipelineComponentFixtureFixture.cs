@@ -61,6 +61,7 @@ namespace Be.Stateless.BizTalk.Unit.Component
 
 			#region ExecutionModeEnum Enum
 
+			[SuppressMessage("ReSharper", "UnusedMember.Global", Justification = "xUnit test class.")]
 			public enum ExecutionModeEnum
 			{
 				Immediate = 0,

@@ -16,6 +16,7 @@
 
 #endregion
 
+using System.Diagnostics.CodeAnalysis;
 using Be.Stateless.BizTalk.MicroComponent;
 
 namespace Be.Stateless.BizTalk.Unit.MicroComponent
@@ -27,6 +28,7 @@ namespace Be.Stateless.BizTalk.Unit.MicroComponent
 	/// This is essentially a <c>NUnit</c> tailored version of the <see cref="MicroComponentFixtureBase"/> base class.
 	/// </remarks>
 	/// <seealso cref="MicroComponentFixtureBase"/>
+	[SuppressMessage("ReSharper", "UnusedType.Global", Justification = "Public API.")]
 	public abstract class MicroComponentFixture : MicroComponentFixtureBase
 	{
 		protected MicroComponentFixture()
